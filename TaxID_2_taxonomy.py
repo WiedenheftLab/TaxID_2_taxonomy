@@ -32,7 +32,7 @@ NCBI Entrez package is required to fetch taxonomy (efetch). Additionally, tqdm i
         
 Syntax:
 
-        python TaxID_2_taxonomy.py -i demo.fasta
+        python TaxID_2_taxonomy.py -i demo_taxID.txt -o demo_taxonomy.txt
 
 TaxID_2_taxonomy dependencies:
 	NCBI Entrez                         refer to https://www.ncbi.nlm.nih.gov/books/NBK179288/
